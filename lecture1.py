@@ -165,7 +165,7 @@ class LinearRegression:
 if __name__ == "__main__":
 
     X, y = datasets.make_regression(
-        n_samples=256, n_features=1, noise=8, random_state=12
+        n_samples=512, n_features=1, noise=2, random_state=13654
     )
     X = cp.array(X)
     y = cp.array(y)
